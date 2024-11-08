@@ -53,6 +53,7 @@ This is an implementation of an AWS architecture using an Elastic Load Balancer 
 - In the quickstart section choose your vm distro AMI option(ubuntu, amazon-linux etc)
 - Choose the instance type as t2-micro
 - Create a name for login key pair and click create new key
-- In the network setting, select your subnets
-- Select security group
+- In the network setting, select your public subnets
+- Select security group but ensure that the security allows access to all inbound and outbound traffic types
+- 
 -
